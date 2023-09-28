@@ -5,21 +5,14 @@ using namespace std;
 
 int main()
 {   
-    cout << "Quelle legende du foot a gagne le Ballon d'or en 2005 ?\n" << endl; // Cette ligne déclare une variable appelée "reponse" de type "string", qui sera utilisée pour stocker la réponse de l'utilisateur à la question posée.
-    cout << "1. Maradona" << endl;
+    cout << "Quelle legende du foot a gagne le Ballon d'or en 2005 ?\n" << endl; // Affiche une question sur la console en utilisant "cout". La question est :"Quelle légende du foot a gagné le Ballon d'or en 2005 ?"
+    cout << "1. Maradona" << endl; // Les options de réponse sont affichées, numérotées de 1 à 4.
     cout << "2. Pele" << endl;
     cout << "3. Ronaldinho" << endl;
     cout << "4. Zidane\n" << endl;
-    // Ces lignes affichent la question et les options de réponse pour l'utilisateur. Chaque option est affichée sur une nouvelle ligne en utilisant "cout", qui est le flux de sortie standard. La question est affichée avec une nouvelle ligne ("\n") à la fin.
-    poserQuestion(3);
    
-    // Cette ligne affiche le message "Votre reponse :" pour indiquer à l'utilisateur de saisir sa réponse. Ensuite, la réponse saisie par l'utilisateur est stockée dans la variable "reponse" à l'aide de "cin".
-    // En résumé, ces lignes de code posent une question sur le Ballon d'Or en 2005 à l'utilisateur et récupèrent sa réponse pour la stocker dans la variable "reponse".
-   
-    // Ces lignes de code utilisent une structure conditionnelle "if-else" pour vérifier si la réponse de l'utilisateur est égale à "Ronaldinho".
-    // Si la réponse est égale à "Ronaldinho", le programme affiche le message "Bonne réponse !" suivi de deux nouvelles lignes ("\n\n") à l'aide de "cout".
-    // Si la réponse n'est pas égale à "Ronaldinho", le programme exécute le bloc de code dans la partie "else". Il affiche le message "Mauvaise réponse." suivi d'une nouvelle ligne ("\n") à l'aide de "cout". Ensuite, il affiche le message "La bonne réponse est Ronaldinho." suivi d'une nouvelle ligne ("\n") à l'aide de "cout".
-    // En résumé, ces lignes de code permettent d'afficher un message différent en fonction de la réponse de l'utilisateur. Si la réponse est correcte, le programme affiche "Bonne réponse !". Sinon, il affiche "Mauvaise réponse." suivi de la bonne réponse.
+    poserQuestion(3); // La fonction "poserQuestion(3)"" est appelée. Cela signifie que la fonction "poserQuestion" est exécutée avec "3" comme argument. Cela indique que la bonne réponse à la question est 
+     //l'option numéro 3, qui correspond à "Ronaldinho".
     cout << "Quelle legende du foot a gagner la coupe des clubs champions en 1966  ?\n" << endl;
     cout << "1. Charlton" << endl;
     cout << "2. Platini" << endl;
